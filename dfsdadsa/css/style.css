@@ -1,0 +1,157 @@
+/* Reset de márgenes y padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* style.css */
+
+.group-2,
+.group-2 * {
+  box-sizing: border-box;
+}
+
+.group-2 {
+  width: 520px;
+  height: 204px;
+  position: relative; /* Cambiado a relative */
+  z-index: 2; /* Nueva propiedad para controlar la superposición */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.rectangle-1 {
+  background: #4eb1f9;
+  width: 100%; /* Ajustado al 100% para cubrir todo el ancho del grupo */
+  height: 204px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.estimado-cliente-complete-los-datos-de-su-cuenta {
+  color: #ffffff;
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%; /* Centra horizontalmente con respecto al rectángulo */
+  top: 50%; /* Centra verticalmente con respecto al rectángulo */
+  transform: translate(-50%, -50%); /* Centra el texto correctamente */
+  width: 277px;
+  height: 72px;
+}
+
+.group-1,
+.group-1 * {
+  box-sizing: border-box;
+}
+
+.group-1 {
+  width: 520px;
+  height: 61px;
+  position: relative; /* Cambiado a relative */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.rectangle-3 {
+  background: #fff8f8;
+  width: 100%; /* Ajustado al 100% para cubrir todo el ancho del grupo */
+  height: 61px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.unnamed-1 {
+  width: 146px;
+  height: 38px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.group-3,
+.group-3 * {
+  box-sizing: border-box;
+}
+
+.group-3 {
+  width: 520px;
+  height: 409px;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.rectangle-2 {
+  background: #fff8f8;
+  width: 100%;
+  height: 409px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.como-terminar-de-completar-mis-datos,
+.cuando-esten-todos-tus-datos-completos-podras-volver-a-operar-en-mercado-pago,
+._1-click-en-el-boton-de-abajo-para-ingresar-a-tu-cuenta-2-completa-tus-datos-tarjeta-y-dni-3-es-posible-que-te-pidamos-un-codigo-email-y-sms-para-comprobar-tus-datos,
+.rectangle-4,
+.completar-mis-datos {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.como-terminar-de-completar-mis-datos {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  top: 50px; /* Ajustado para tener un espacio del borde superior */
+}
+
+.cuando-esten-todos-tus-datos-completos-podras-volver-a-operar-en-mercado-pago {
+  color: #3d3b3b;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  top: 120px; /* Ajustado para tener un espacio del borde superior */
+  width: 261px;
+  height: 37px;
+}
+
+._1-click-en-el-boton-de-abajo-para-ingresar-a-tu-cuenta-2-completa-tus-datos-tarjeta-y-dni-3-es-posible-que-te-pidamos-un-codigo-email-y-sms-para-comprobar-tus-datos {
+  color: #312f2f;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  top: 190px; /* Ajustado para tener un espacio del borde superior */
+  width: 309px;
+  height: 128px;
+}
+
+.rectangle-4 {
+    background: #4eb1f9;
+    width: 275px;
+    height: 54px;
+    top: 330px; /* Ajustado para tener un espacio del borde superior */
+    position: relative; /* Cambiado a relative */
+  }
+  
+  .completar-mis-datos {
+    color: #fff7f7;
+    text-align: center; /* Ajustado para centrar el texto horizontalmente */
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: 40px; /* Ajustado para tener un espacio del borde inferior */
+    transform: translateX(-50%); /* Centra el texto horizontalmente */
+  }
